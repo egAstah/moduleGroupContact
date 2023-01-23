@@ -1,0 +1,28 @@
+#click-group{
+    cursor: pointer;
+}
+#contact-list{
+    display: none;
+}
+.btn-action{
+    color: #000;
+    border: none;
+    background: none;
+}
+.btn-action a{
+    color: #000;
+}
+.btn-action a:hover, .btn-action a:focus{
+    color: #666;
+    transition: .2s ease-in-out;
+}
+.btn-action:hover, .btn-action:focus{
+    color: #666;
+    transition: .2s ease-in-out;
+}
+.table>:not(caption)>*>*{
+    text-align: center;
+}
+.new-contact{
+    display: none;
+}
